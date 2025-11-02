@@ -8,6 +8,15 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.time.LocalDateTime;
 import java.util.List;
 
+/**
+ * MyBatisPlus使用的基本流程是什么：
+ * 1.引入起步依赖
+ * 2.自定义Mapper基于BaseMapper
+ * 3.在实体类赏添加注解声明表信息
+ * 4.在application.yml中根据需要添加配置
+ *
+ */
+
 @SpringBootTest
 class UserMapperTest {
 
